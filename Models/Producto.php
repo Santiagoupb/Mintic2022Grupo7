@@ -1,18 +1,18 @@
 <?php 
 require '../Config/Connection.php';
 
-class Cliente {
-protected $Id;
-protected $Email;
-protected $Password;
+class Producto {
+protected $IdProducto;
 protected $Nombre;
-protected $Cedula;
-protected $Edad;
-protected $Telefono;
-protected $Registro;
+protected $Categoria;
+protected $Descripcion;
+protected $Cantidad;
+protected $Descuento;
+protected $Estado;
+protected $Valor;
+protected $NumeroRecibo;
 
-
-protected function GuardarCliente(){
+protected function ComprarProducto(){
 
 try {
 
@@ -23,7 +23,7 @@ $guardarendb = new Connection();
 
   
 
-    $query = "INSERT INTO Cliente (email_cliente,contrasena_cliente,nombre_cliente,cedula_cliente,edad_cliente,telefono_cliente,fecha_registro_cliente) VALUES (?,?,?,?,?,?,NOW())";
+    $query = "INSERT INTO Recibo (email_cliente,contrasena_cliente,nombre_cliente,cedula_cliente,edad_cliente,telefono_cliente,fecha_registro_cliente) VALUES (?,?,?,?,?,?,NOW())";
     
     $newpass = password_hash($this->Password,PASSWORD_DEFAULT,['cost'=>10]);
   echo $newpass;
@@ -58,7 +58,7 @@ $guardarendb = new Connection();
 
 
 
-protected function GuardarInstructor(){
+protected function ConsultarEstadoEnvio(){
 
     try {
     
