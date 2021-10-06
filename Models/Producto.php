@@ -11,7 +11,7 @@ protected $Descuento;
 protected $Estado;
 protected $Valor;
 protected $NumeroRecibo;
-
+#comentario
 protected function ComprarProducto(){
 
 try {
