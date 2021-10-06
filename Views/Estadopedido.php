@@ -55,12 +55,9 @@ max-width: 550px;
 
       </div>
     </div>
-
   </nav>
   <div class="container">
     <div class="row">
-
-
       <div class="col-6 m-5">
         <div class="d-flex justify-content-center">
           <h3>Consulta tu pedido</h3>
@@ -76,24 +73,15 @@ max-width: 550px;
                 Looks good!
               </div>
             </div>
-        
-              <button class="btn btn-primary" type="submit">Consultar</button>
-     
-          </form>
+                     <button class="btn btn-primary" type="submit">Consultar</button>
+              </form>
         </div>
       </div>
-
       <div class="col-4">
- 
-      <img src="/HELPDESK/Img/Imagenesgenerales/envio.jpg" class="fluid rounded mt-4" id="imagenpedido" alt="">
-      
-
-      
+       <img src="/HELPDESK/Img/Imagenesgenerales/envio.jpg" class="fluid rounded mt-4" id="imagenpedido" alt="">
+  
       </div>
- 
-</div>
-
-
+ </div>
   </div>
 
 
@@ -104,7 +92,7 @@ max-width: 550px;
 
     </div>
 
-    <?php  echo "hola bebe"; ?>
+
   </div>
 
 
