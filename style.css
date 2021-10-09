@@ -1,0 +1,33 @@
+#color {color:rgb(4, 56, 133)}
+a:hover{
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background-color:turquoise;
+}
+
+#vertical-scrollable {
+    position: absolute;
+    top: 120px;
+    bottom: 100px;
+    left: 180px;
+    width: 50%;
+
+}
+.col-sm-8 { 
+      color: white; 
+      font-size: 24px; 
+      padding-bottom: 20px; 
+      padding-top: 18px; 
+} 
+    
+.col-sm-8:nth-child(2n+1) { 
+      background: green; 
+} 
+    
+.col-sm-8:nth-child(2n+2) { 
+      background: black; 
+} 
