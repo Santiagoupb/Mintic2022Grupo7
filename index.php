@@ -41,7 +41,7 @@ body { background-color: #FCD98D; }
 </body>
     <title>Helpdesk Pro</title>
 </head>
-<nav class="navbar navbar-expand-lg navbar-light bg-muted" id="barra" >
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-muted" id="barra" >
   <div class="container-fluid">
   <img src="Img/logo.png" id="loguito" class="rounded float-start">
   <style>#loguito{
@@ -84,21 +84,19 @@ body { background-color: #FCD98D; }
     </div>
   </div>
 
-</nav>
+</nav> -->
 
 
 
 
 
 
-<div class="container">
-<div class="d-flex justify-content-center ">
-<h1>hola</h1>    
+  
 
 </div>
 
     <center> 
-        <div class="container"> 
+        <!-- <div class="container"> 
   
             <h1 style=
        "text-align:center;color:green;"> 
@@ -126,25 +124,74 @@ body { background-color: #FCD98D; }
                       7</div> 
                 </div> 
             </div> 
-        </div> 
+        </div>  -->
+        <style>
+        #imagen1, #imagen2, #imagen3, #imagen4, #imagen5, #imagen6{
+        min-width: 1500px;
+        max-width: 1600px;
+        } 
+        </style>
+        <img alt="Qries" id="imagen1" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Autumn_Drone_%28cropped%29.jpg">
+        <br>
+        <img alt="Qries" id="imagen2" src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/06/drone-2364585.jpg">
+        <br>
+        <img alt="Qries" id="imagen3" src="https://imagenes.elpais.com/resizer/RxcTuXjIL5YibgNChfCmMRmpZeY=/1960x0/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/XVJMAE4GNPYLWTZVNAXP6LMLO4.jpg">
+        <br>
+        <img alt="Qries" id="imagen4" src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2021/04/drone-2308279.jpg">
+        <br>
+        <img alt="Qries" id="imagen5" src="https://motor.elpais.com/wp-content/uploads/2021/07/mir_presentaci%C3%B3n_drones_DGT.jpg">
+        <br>
+        <img alt="Qries" id="imagen6" src="https://i1.wp.com/hipertextual.com/wp-content/uploads/2020/02/hipertextual-aplicaciones-imprescindibles-sacarle-partido-tu-dron-2020472777.jpg?fit=1920%2C1281&ssl=1">
+        <br>
     </center>
-</div>
 
 
 
 
+<nav class="navbar navbar-expand-md navbar-light fixed-top bg-muted">
+  <div class="container-fluid">
+  <img src="Img\Img/logo.png" id="loguito" class="rounded float-start">
+  <style>#loguito{
+    min-width: 50px;
+    max-width: 50px;
+  } 
+  </style>
+    <a class="navbar-brand" class="nav-link active" href="/HELPDESK/index.php" id="color" >HELPDESK</a>
+    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarCollapse" >
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item " >
+          <a class="nav-link" aria-current="page" href="#equipo" id="color">Nuestro equipo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/HELPDESK/Views/Estadopedido.php" id="color">Consultar pedido</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/HELPDESK/Views/login.php" id="color">Login/Registro</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-outline-primary" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
 
 
-<div class="container">
-  <footer class="py-3 my-4" id="piepag">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-primary" >Inicio</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-primary" >Sobre nosotros</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-primary" >Precios</a></li>
+
+  <footer class="py-0 my-0" id="piepag"> <!-- 3 4 -->
+    <ul class="nav justify-content-center  pb-0 mb-0"> <!-- 3 3 -->
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-secondary" >Inicio</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-secondary" >Sobre nosotros</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-secondary" >Precios</a></li>
     </ul>
     <p class="text-center text-muted">© 2021 Grupo 7 NRC</p>
   </footer>
-</div>
+
 
 </body>
 </html>
